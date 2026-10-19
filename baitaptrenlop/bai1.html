@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bai1.css">
+</head>
+<body>
+        <button onclick="batDen('green')">green</button>
+        <button onclick="batDen('yellow')">yellow</button>
+        <button onclick="batDen('red')">red</button>
+
+        <div class="den">
+        <div id="red" class="bong den-do"></div>
+        <div id="yellow" class="bong den-vang"></div>
+        <div id="green" class="bong den-xanh"></div>
+    </div>
+
+
+<script>
+function batDen(mau) {
+    document.getElementById("red").style.background = "darkred";
+    document.getElementById("yellow").style.background = "#665500";
+    document.getElementById("green").style.background = "darkgreen";
+
+    document.getElementById(mau).style.background = mau;
+}
+</script>
+
+</body>
+</html>

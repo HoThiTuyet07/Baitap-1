@@ -1,0 +1,32 @@
+
+button {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.den {
+    background: black;
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.bong {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px auto;
+    background: #333;
+}
+
+.den-do {
+    border: 3px solid #555;
+}
+
+.den-vang {
+    border: 3px solid #555;
+}
+
+.den-xanh {
+    border: 3px solid #555;
+}
